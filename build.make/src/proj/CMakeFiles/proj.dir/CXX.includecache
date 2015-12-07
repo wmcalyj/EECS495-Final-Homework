@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.cpp
+proj.hpp
+/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.hpp
+
+/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.hpp
+iostream
+-
+vector
+-
+stack
+-
+queue
+-
+
