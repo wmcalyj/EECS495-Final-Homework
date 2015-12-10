@@ -9,6 +9,7 @@ namespace proj
   	rope r2{"hello"};
     rope r3{"world"};
     rope r1{r2, r3};
+    rope r4;
   }
   TEST(Index)
   {
@@ -29,7 +30,6 @@ namespace proj
   	CHECK_THROW(r2[5], std::length_error);
 
     // reference check
-
     r2[0] = 'x';
     CHECK_EQUAL('x',r2[0]);
   }
@@ -42,18 +42,6 @@ namespace proj
     CHECK_EQUAL("world", r2.toString());
     CHECK_EQUAL("helloworld", r1.concat(r2).toString());
     CHECK_EQUAL("worldhello", r2.concat(r1).toString());
-  }
-
-  TEST(Length)
-  {
-    rope r1;
-    CHECK_EQUAL(0, r1.length());
-    rope r2{"hello"};
-    CHECK_EQUAL(5, r2.length());
-    rope r3{"world"};
-    CHECK_EQUAL(5, r3.length());
-    rope r4{"hello world"};
-    CHECK_EQUAL(11, r4.length());
   }
 
   TEST(Concat)
@@ -106,7 +94,20 @@ namespace proj
     rope r{"hello world"};
     std::vector<rope> rs1 = r.split(5);
     CHECK_EQUAL("hello", rs1[0].toString());
+    CHECK_EQUAL('h', rs1[0][0]);
+    CHECK_EQUAL('e', rs1[0][1]);
+    CHECK_EQUAL('l', rs1[0][2]);
+    CHECK_EQUAL('l', rs1[0][3]);
+    CHECK_EQUAL('o', rs1[0][4]);
+
     CHECK_EQUAL(" world", rs1[1].toString());
+    CHECK_EQUAL(' ', rs1[1].index(0));
+    CHECK_EQUAL('w', rs1[1].index(1));
+    CHECK_EQUAL('o', rs1[1].index(2));
+    CHECK_EQUAL('r', rs1[1].index(3));
+    CHECK_EQUAL('l', rs1[1].index(4));
+    CHECK_EQUAL('d', rs1[1].index(5));
+
     std::vector<rope> rs2 = r.split(10);
     CHECK_EQUAL("hello worl", rs2[0].toString());
     CHECK_EQUAL("d", rs2[1].toString());
@@ -140,6 +141,18 @@ namespace proj
   	CHECK_EQUAL("hworldello", ro.insert(1,rt).toString());
     CHECK_EQUAL("heworldllo", ro.insert(2,rt).toString());
     CHECK_EQUAL("helworldlo", ro.insert(3,rt).toString());
+
+    CHECK_EQUAL('h', ro.insert(3,rt)[0]);
+    CHECK_EQUAL('e', ro.insert(3,rt)[1]);
+    CHECK_EQUAL('l', ro.insert(3,rt)[2]);
+    CHECK_EQUAL('w', ro.insert(3,rt)[3]);
+    CHECK_EQUAL('o', ro.insert(3,rt)[4]);
+    CHECK_EQUAL('r', ro.insert(3,rt)[5]);
+    CHECK_EQUAL('l', ro.insert(3,rt)[6]);
+    CHECK_EQUAL('d', ro.insert(3,rt)[7]);
+    CHECK_EQUAL('l', ro.insert(3,rt)[8]);
+    CHECK_EQUAL('o', ro.insert(3,rt)[9]);
+
     CHECK_EQUAL("hellworldo", ro.insert(4,rt).toString());
     CHECK_EQUAL("helloworld", ro.insert(5,rt).toString());
 
@@ -186,7 +199,6 @@ namespace proj
     CHECK_EQUAL("helloworldh", r2.substr(0, 11).toString());
     CHECK_EQUAL("helloworldho", r2.substr(0, 12).toString());
     CHECK_EQUAL("helloworldhow", r2.substr(0, 13).toString());
-
   }
 
   TEST(Replace)
@@ -216,6 +228,23 @@ namespace proj
     CHECK_EQUAL("TESThello world", r.replace(0, 0, "TEST").toString());
   }
 
+  TEST(Length)
+  {
+    rope r1;
+    CHECK_EQUAL(0, r1.length());
+    rope r2{"hello"};
+    CHECK_EQUAL(5, r2.length());
+    rope r3{"world"};
+    CHECK_EQUAL(5, r3.length());
+    rope r4{"hello world"};
+    CHECK_EQUAL(11, r4.length());
+
+    CHECK_EQUAL(10, r3.concat(r2).length());
+    CHECK_EQUAL(21, r2.concat(r3).concat(r4).length());
+    CHECK_EQUAL(2, r2.split(2)[0].length());
+    CHECK_EQUAL(3, r2.split(2)[1].length());
+  }
+
   TEST(Equal){
     rope r1{"hello"};
     rope r2{"hello"};
@@ -224,10 +253,6 @@ namespace proj
     CHECK_EQUAL(false, r1.equal(r3));
     CHECK_EQUAL(false, r3.equal(r2));
   }
-
-
-
-
 }  // namespace proj
 
 int
