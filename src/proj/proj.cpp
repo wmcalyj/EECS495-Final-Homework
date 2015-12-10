@@ -18,26 +18,14 @@ namespace proj
 		left = std::make_shared<rope>(l);
 		right = std::make_shared<rope>(r);
 	}
-
-	size_t rope::getWeight(){
-		return this->weight;
-	}
-
-	// Operator overlaoding
-	// index access operator []
-	char& rope::operator[](size_t i)
-	{
-		return index(i);
-	}
-
 	// Return the length of the rope
 	size_t rope::length()
 	{
-		if(this->left == nullptr){
-			return this->data.length();
+		if(left == nullptr){
+			return data.length();
 		}
-		size_t result = this->weight;
-		rope* raw = this->right.get();
+		size_t result = weight;
+		rope* raw = right.get();
 		while(raw)
 		{
 			result += raw->weight;
@@ -48,13 +36,13 @@ namespace proj
 	// Return the string type of the rope
 	std::string rope::toString() const
 	{
-		std::string result="";
+		std::string result = "";
 
-		if(left!=nullptr)
+		if(left != nullptr)
 			result += left->toString();
-		if(this->data!="")
+		if(data != "")
 			result += data;
-		if(this->right!=nullptr)
+		if(right != nullptr)
 			result += right->toString();
 		return result;
 	}
@@ -65,7 +53,8 @@ namespace proj
 			if(right != nullptr)
 				return right->index(i - weight);
 			else{
-				if(i >= this->data.length()){
+				if(i >= data.length())
+				{
 					throw std::length_error("Out of boundry error.");
 				}
 				return data[i];
@@ -74,15 +63,22 @@ namespace proj
 			if(left != nullptr)
 				return left->index(i);
 			else{
-				if(i >= this->data.length()){
+				if(i >= data.length()){
 					throw std::length_error("Out of boundry error.");
 				}
 				return data[i];
 			}
 		}
 	}
-
-	bool rope::equal(const rope& r){
+	// Operator overlaoding
+	// index access operator []
+	char& rope::operator[](size_t i)
+	{
+		return index(i);
+	}
+	// check to rope is equal
+	bool rope::equal(const rope& r)
+	{
 		return this->toString().compare(r.toString()) == 0;
 	}
 	
@@ -214,7 +210,8 @@ namespace proj
 	// insert a rope at index
 	rope rope::insert(size_t i, rope& n)
 	{
-		if(i == 0){
+		if(i == 0)
+		{
 			return n.concat(*this);
 		}
 		std::vector<rope> spt = this->split(i);
@@ -231,12 +228,6 @@ namespace proj
 		return res;
 	}
 
-	// // remove string between indexes
-	// rope rope::remove(size_t i)
-	// {
-	// 	return this->remove(i, this->length());
-	// }
-	
 	// return the sub string between indexes
 	// left inclusive and right exclusive
 	rope rope::substr(size_t i, size_t j)
@@ -245,11 +236,6 @@ namespace proj
 			throw std::length_error("Out of boundry error.");
 		}
 		std::vector<rope> last = this->split(j);
-		// if(j == this->length()){
-		// 	last = this->split(j-1);
-		// }else{
-		//  	last = this->split(j);
-		// }
 		std::vector<rope> prev = last[0].split(i);
 		return prev[1];
 	}
@@ -330,13 +316,13 @@ namespace proj
 	// build a rope from a string
 	rope build(std::string str)
 	{	
-		if(str=="")
+		if(str == "")
 		{
 			rope res;
 			return res;
 		}
 
-		int i =0;
+		int i = 0;
 		int size = str.length();
 		std::queue<rope> q;
 
@@ -348,13 +334,13 @@ namespace proj
 				int rad = rand()%size + 1;
 				rope temp(str.substr(i,rad));
 				q.push(temp);
-				i+=rad;
-				size-=rad;			
+				i += rad;
+				size -= rad;			
 			}
 			else if(size == 1)
 			{	
 				rope temp(str.substr(i));
-				size-=1;
+				size -= 1;
 				q.push(temp);
 			}	
 		}
@@ -373,27 +359,4 @@ namespace proj
 			return res;
 		}
 	}
-	// delete this before submit, helper
-	void rope::report()
-	{
-		std::queue<rope> q;
-		q.push(*this);
-		int size;
-		while(!q.empty())
-		{
-			size = q.size();
-			while(size--)
-			{
-				rope temp = q.front();
-				q.pop();
-				std::cout<<"(H:"<<temp.height<<"|str:"<<temp.data<<"|weight:"<<temp.weight<<")---";
-				if(temp.left != nullptr)
-					q.push(*temp.left);
-				if(temp.right != nullptr)
-					q.push(*temp.right);
-			}
-			std::cout<<std::endl;
-		}
-	}
-
 }

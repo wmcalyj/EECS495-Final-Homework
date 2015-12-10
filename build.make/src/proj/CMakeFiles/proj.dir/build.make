@@ -43,10 +43,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy"
+CMAKE_SOURCE_DIR = "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make"
+CMAKE_BINARY_DIR = "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make"
 
 # Include any dependencies generated for this target.
 include src/proj/CMakeFiles/proj.dir/depend.make
@@ -59,16 +59,16 @@ include src/proj/CMakeFiles/proj.dir/flags.make
 
 src/proj/CMakeFiles/proj.dir/proj.cpp.o: src/proj/CMakeFiles/proj.dir/flags.make
 src/proj/CMakeFiles/proj.dir/proj.cpp.o: ../src/proj/proj.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/proj/CMakeFiles/proj.dir/proj.cpp.o"
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/proj.cpp.o -c "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/proj/CMakeFiles/proj.dir/proj.cpp.o"
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/proj.dir/proj.cpp.o -c "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj/proj.cpp"
 
 src/proj/CMakeFiles/proj.dir/proj.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/proj.dir/proj.cpp.i"
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.cpp" > CMakeFiles/proj.dir/proj.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj/proj.cpp" > CMakeFiles/proj.dir/proj.cpp.i
 
 src/proj/CMakeFiles/proj.dir/proj.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/proj.dir/proj.cpp.s"
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.cpp" -o CMakeFiles/proj.dir/proj.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" && /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj/proj.cpp" -o CMakeFiles/proj.dir/proj.cpp.s
 
 src/proj/CMakeFiles/proj.dir/proj.cpp.o.requires:
 
@@ -91,9 +91,9 @@ proj_EXTERNAL_OBJECTS =
 src/proj/libproj.a: src/proj/CMakeFiles/proj.dir/proj.cpp.o
 src/proj/libproj.a: src/proj/CMakeFiles/proj.dir/build.make
 src/proj/libproj.a: src/proj/CMakeFiles/proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libproj.a"
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" && $(CMAKE_COMMAND) -P CMakeFiles/proj.dir/cmake_clean_target.cmake
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proj.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libproj.a"
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" && $(CMAKE_COMMAND) -P CMakeFiles/proj.dir/cmake_clean_target.cmake
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/proj.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 src/proj/CMakeFiles/proj.dir/build: src/proj/libproj.a
@@ -105,10 +105,10 @@ src/proj/CMakeFiles/proj.dir/requires: src/proj/CMakeFiles/proj.dir/proj.cpp.o.r
 .PHONY : src/proj/CMakeFiles/proj.dir/requires
 
 src/proj/CMakeFiles/proj.dir/clean:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" && $(CMAKE_COMMAND) -P CMakeFiles/proj.dir/cmake_clean.cmake
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" && $(CMAKE_COMMAND) -P CMakeFiles/proj.dir/cmake_clean.cmake
 .PHONY : src/proj/CMakeFiles/proj.dir/clean
 
 src/proj/CMakeFiles/proj.dir/depend:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj/CMakeFiles/proj.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj/CMakeFiles/proj.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : src/proj/CMakeFiles/proj.dir/depend
 

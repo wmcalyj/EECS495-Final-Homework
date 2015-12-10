@@ -48,10 +48,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy"
+CMAKE_SOURCE_DIR = "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make"
+CMAKE_BINARY_DIR = "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/strip/fast: install/strip
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/CMakeFiles" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/tests/CMakeFiles/progress.marks"
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/CMakeFiles" 0
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/CMakeFiles" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/tests/CMakeFiles/progress.marks"
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 tests/CMakeFiles/proj_test.dir/rule:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/proj_test.dir/rule
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 tests/CMakeFiles/proj_test.dir/rule
 .PHONY : tests/CMakeFiles/proj_test.dir/rule
 
 # Convenience name for target.
@@ -177,7 +177,7 @@ proj_test: tests/CMakeFiles/proj_test.dir/rule
 
 # fast build rule for target.
 proj_test/fast:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/build
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/build
 .PHONY : proj_test/fast
 
 proj.o: proj.cpp.o
@@ -186,7 +186,7 @@ proj.o: proj.cpp.o
 
 # target to build an object file
 proj.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/proj.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/proj.cpp.o
 .PHONY : proj.cpp.o
 
 proj.i: proj.cpp.i
@@ -195,7 +195,7 @@ proj.i: proj.cpp.i
 
 # target to preprocess a source file
 proj.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/proj.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/proj.cpp.i
 .PHONY : proj.cpp.i
 
 proj.s: proj.cpp.s
@@ -204,7 +204,7 @@ proj.s: proj.cpp.s
 
 # target to generate assembly for a file
 proj.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/proj.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f tests/CMakeFiles/proj_test.dir/build.make tests/CMakeFiles/proj_test.dir/proj.cpp.s
 .PHONY : proj.cpp.s
 
 # Help Target
@@ -235,6 +235,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

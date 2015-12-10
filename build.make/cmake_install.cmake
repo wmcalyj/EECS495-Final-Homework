@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy
+# Install script for directory: /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,9 +29,9 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/cmake_install.cmake")
-  include("/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/tests/cmake_install.cmake")
-  include("/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/3rdparty/cmake_install.cmake")
+  include("/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/cmake_install.cmake")
+  include("/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/tests/cmake_install.cmake")
+  include("/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/3rdparty/cmake_install.cmake")
 
 endif()
 
@@ -43,5 +43,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

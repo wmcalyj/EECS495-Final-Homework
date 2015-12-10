@@ -6,5 +6,5 @@ CXX_FLAGS =  -std=c++14 -std=c++14
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I"/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src" -I"/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty" -I"/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp" -I"/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/." 
+CXX_INCLUDES = -I"/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src" -I"/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty" -I"/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp" -I"/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/." 
 

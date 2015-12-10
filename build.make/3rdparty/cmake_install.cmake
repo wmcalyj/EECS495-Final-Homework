@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty
+# Install script for directory: /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -29,7 +29,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/3rdparty/unittest-cpp/cmake_install.cmake")
+  include("/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/3rdparty/unittest-cpp/cmake_install.cmake")
 
 endif()
 

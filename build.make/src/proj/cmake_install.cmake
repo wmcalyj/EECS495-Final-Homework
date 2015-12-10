@@ -1,4 +1,4 @@
-# Install script for directory: /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj
+# Install script for directory: /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

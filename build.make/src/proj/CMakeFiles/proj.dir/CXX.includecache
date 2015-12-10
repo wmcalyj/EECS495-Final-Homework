@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.cpp
+/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj/proj.cpp
 proj.hpp
-/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.hpp
+/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj/proj.hpp
 
-/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj/proj.hpp
+/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj/proj.hpp
 iostream
 -
 vector

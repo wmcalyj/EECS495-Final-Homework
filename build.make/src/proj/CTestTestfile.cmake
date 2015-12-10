@@ -1,6 +1,6 @@
 # CMake generated Testfile for 
-# Source directory: /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/src/proj
-# Build directory: /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/src/proj
+# Source directory: /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/src/proj
+# Build directory: /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/src/proj
 # 
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.

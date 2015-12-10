@@ -48,10 +48,10 @@ RM = /opt/local/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy"
+CMAKE_SOURCE_DIR = "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make"
+CMAKE_BINARY_DIR = "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ install/local/fast: install/local
 
 # The main all target
 all: cmake_check_build_system
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/CMakeFiles" "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/3rdparty/unittest-cpp/CMakeFiles/progress.marks"
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/all
-	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/CMakeFiles" 0
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -E cmake_progress_start "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/CMakeFiles" "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/3rdparty/unittest-cpp/CMakeFiles/progress.marks"
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/clean
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/preinstall
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/preinstall
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/rule:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/rule
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/rule
 .PHONY : 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ TestUnitTest++: 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/rule
 
 # fast build rule for target.
 TestUnitTest++/fast:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build
 .PHONY : TestUnitTest++/fast
 
 # Convenience name for target.
 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/rule:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/rule
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f CMakeFiles/Makefile2 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/rule
 .PHONY : 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/rule
 
 # Convenience name for target.
@@ -192,7 +192,7 @@ UnitTest++: 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/rule
 
 # fast build rule for target.
 UnitTest++/fast:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build
 .PHONY : UnitTest++/fast
 
 UnitTest++/AssertException.o: UnitTest++/AssertException.cpp.o
@@ -201,7 +201,7 @@ UnitTest++/AssertException.o: UnitTest++/AssertException.cpp.o
 
 # target to build an object file
 UnitTest++/AssertException.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/AssertException.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/AssertException.cpp.o
 .PHONY : UnitTest++/AssertException.cpp.o
 
 UnitTest++/AssertException.i: UnitTest++/AssertException.cpp.i
@@ -210,7 +210,7 @@ UnitTest++/AssertException.i: UnitTest++/AssertException.cpp.i
 
 # target to preprocess a source file
 UnitTest++/AssertException.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/AssertException.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/AssertException.cpp.i
 .PHONY : UnitTest++/AssertException.cpp.i
 
 UnitTest++/AssertException.s: UnitTest++/AssertException.cpp.s
@@ -219,7 +219,7 @@ UnitTest++/AssertException.s: UnitTest++/AssertException.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/AssertException.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/AssertException.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/AssertException.cpp.s
 .PHONY : UnitTest++/AssertException.cpp.s
 
 UnitTest++/Checks.o: UnitTest++/Checks.cpp.o
@@ -228,7 +228,7 @@ UnitTest++/Checks.o: UnitTest++/Checks.cpp.o
 
 # target to build an object file
 UnitTest++/Checks.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Checks.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Checks.cpp.o
 .PHONY : UnitTest++/Checks.cpp.o
 
 UnitTest++/Checks.i: UnitTest++/Checks.cpp.i
@@ -237,7 +237,7 @@ UnitTest++/Checks.i: UnitTest++/Checks.cpp.i
 
 # target to preprocess a source file
 UnitTest++/Checks.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Checks.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Checks.cpp.i
 .PHONY : UnitTest++/Checks.cpp.i
 
 UnitTest++/Checks.s: UnitTest++/Checks.cpp.s
@@ -246,7 +246,7 @@ UnitTest++/Checks.s: UnitTest++/Checks.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/Checks.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Checks.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Checks.cpp.s
 .PHONY : UnitTest++/Checks.cpp.s
 
 UnitTest++/CompositeTestReporter.o: UnitTest++/CompositeTestReporter.cpp.o
@@ -255,7 +255,7 @@ UnitTest++/CompositeTestReporter.o: UnitTest++/CompositeTestReporter.cpp.o
 
 # target to build an object file
 UnitTest++/CompositeTestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CompositeTestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CompositeTestReporter.cpp.o
 .PHONY : UnitTest++/CompositeTestReporter.cpp.o
 
 UnitTest++/CompositeTestReporter.i: UnitTest++/CompositeTestReporter.cpp.i
@@ -264,7 +264,7 @@ UnitTest++/CompositeTestReporter.i: UnitTest++/CompositeTestReporter.cpp.i
 
 # target to preprocess a source file
 UnitTest++/CompositeTestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CompositeTestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CompositeTestReporter.cpp.i
 .PHONY : UnitTest++/CompositeTestReporter.cpp.i
 
 UnitTest++/CompositeTestReporter.s: UnitTest++/CompositeTestReporter.cpp.s
@@ -273,7 +273,7 @@ UnitTest++/CompositeTestReporter.s: UnitTest++/CompositeTestReporter.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/CompositeTestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CompositeTestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CompositeTestReporter.cpp.s
 .PHONY : UnitTest++/CompositeTestReporter.cpp.s
 
 UnitTest++/CurrentTest.o: UnitTest++/CurrentTest.cpp.o
@@ -282,7 +282,7 @@ UnitTest++/CurrentTest.o: UnitTest++/CurrentTest.cpp.o
 
 # target to build an object file
 UnitTest++/CurrentTest.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CurrentTest.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CurrentTest.cpp.o
 .PHONY : UnitTest++/CurrentTest.cpp.o
 
 UnitTest++/CurrentTest.i: UnitTest++/CurrentTest.cpp.i
@@ -291,7 +291,7 @@ UnitTest++/CurrentTest.i: UnitTest++/CurrentTest.cpp.i
 
 # target to preprocess a source file
 UnitTest++/CurrentTest.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CurrentTest.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CurrentTest.cpp.i
 .PHONY : UnitTest++/CurrentTest.cpp.i
 
 UnitTest++/CurrentTest.s: UnitTest++/CurrentTest.cpp.s
@@ -300,7 +300,7 @@ UnitTest++/CurrentTest.s: UnitTest++/CurrentTest.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/CurrentTest.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CurrentTest.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/CurrentTest.cpp.s
 .PHONY : UnitTest++/CurrentTest.cpp.s
 
 UnitTest++/DeferredTestReporter.o: UnitTest++/DeferredTestReporter.cpp.o
@@ -309,7 +309,7 @@ UnitTest++/DeferredTestReporter.o: UnitTest++/DeferredTestReporter.cpp.o
 
 # target to build an object file
 UnitTest++/DeferredTestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestReporter.cpp.o
 .PHONY : UnitTest++/DeferredTestReporter.cpp.o
 
 UnitTest++/DeferredTestReporter.i: UnitTest++/DeferredTestReporter.cpp.i
@@ -318,7 +318,7 @@ UnitTest++/DeferredTestReporter.i: UnitTest++/DeferredTestReporter.cpp.i
 
 # target to preprocess a source file
 UnitTest++/DeferredTestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestReporter.cpp.i
 .PHONY : UnitTest++/DeferredTestReporter.cpp.i
 
 UnitTest++/DeferredTestReporter.s: UnitTest++/DeferredTestReporter.cpp.s
@@ -327,7 +327,7 @@ UnitTest++/DeferredTestReporter.s: UnitTest++/DeferredTestReporter.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/DeferredTestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestReporter.cpp.s
 .PHONY : UnitTest++/DeferredTestReporter.cpp.s
 
 UnitTest++/DeferredTestResult.o: UnitTest++/DeferredTestResult.cpp.o
@@ -336,7 +336,7 @@ UnitTest++/DeferredTestResult.o: UnitTest++/DeferredTestResult.cpp.o
 
 # target to build an object file
 UnitTest++/DeferredTestResult.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestResult.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestResult.cpp.o
 .PHONY : UnitTest++/DeferredTestResult.cpp.o
 
 UnitTest++/DeferredTestResult.i: UnitTest++/DeferredTestResult.cpp.i
@@ -345,7 +345,7 @@ UnitTest++/DeferredTestResult.i: UnitTest++/DeferredTestResult.cpp.i
 
 # target to preprocess a source file
 UnitTest++/DeferredTestResult.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestResult.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestResult.cpp.i
 .PHONY : UnitTest++/DeferredTestResult.cpp.i
 
 UnitTest++/DeferredTestResult.s: UnitTest++/DeferredTestResult.cpp.s
@@ -354,7 +354,7 @@ UnitTest++/DeferredTestResult.s: UnitTest++/DeferredTestResult.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/DeferredTestResult.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestResult.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/DeferredTestResult.cpp.s
 .PHONY : UnitTest++/DeferredTestResult.cpp.s
 
 UnitTest++/MemoryOutStream.o: UnitTest++/MemoryOutStream.cpp.o
@@ -363,7 +363,7 @@ UnitTest++/MemoryOutStream.o: UnitTest++/MemoryOutStream.cpp.o
 
 # target to build an object file
 UnitTest++/MemoryOutStream.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/MemoryOutStream.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/MemoryOutStream.cpp.o
 .PHONY : UnitTest++/MemoryOutStream.cpp.o
 
 UnitTest++/MemoryOutStream.i: UnitTest++/MemoryOutStream.cpp.i
@@ -372,7 +372,7 @@ UnitTest++/MemoryOutStream.i: UnitTest++/MemoryOutStream.cpp.i
 
 # target to preprocess a source file
 UnitTest++/MemoryOutStream.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/MemoryOutStream.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/MemoryOutStream.cpp.i
 .PHONY : UnitTest++/MemoryOutStream.cpp.i
 
 UnitTest++/MemoryOutStream.s: UnitTest++/MemoryOutStream.cpp.s
@@ -381,7 +381,7 @@ UnitTest++/MemoryOutStream.s: UnitTest++/MemoryOutStream.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/MemoryOutStream.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/MemoryOutStream.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/MemoryOutStream.cpp.s
 .PHONY : UnitTest++/MemoryOutStream.cpp.s
 
 UnitTest++/Posix/SignalTranslator.o: UnitTest++/Posix/SignalTranslator.cpp.o
@@ -390,7 +390,7 @@ UnitTest++/Posix/SignalTranslator.o: UnitTest++/Posix/SignalTranslator.cpp.o
 
 # target to build an object file
 UnitTest++/Posix/SignalTranslator.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/SignalTranslator.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/SignalTranslator.cpp.o
 .PHONY : UnitTest++/Posix/SignalTranslator.cpp.o
 
 UnitTest++/Posix/SignalTranslator.i: UnitTest++/Posix/SignalTranslator.cpp.i
@@ -399,7 +399,7 @@ UnitTest++/Posix/SignalTranslator.i: UnitTest++/Posix/SignalTranslator.cpp.i
 
 # target to preprocess a source file
 UnitTest++/Posix/SignalTranslator.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/SignalTranslator.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/SignalTranslator.cpp.i
 .PHONY : UnitTest++/Posix/SignalTranslator.cpp.i
 
 UnitTest++/Posix/SignalTranslator.s: UnitTest++/Posix/SignalTranslator.cpp.s
@@ -408,7 +408,7 @@ UnitTest++/Posix/SignalTranslator.s: UnitTest++/Posix/SignalTranslator.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/Posix/SignalTranslator.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/SignalTranslator.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/SignalTranslator.cpp.s
 .PHONY : UnitTest++/Posix/SignalTranslator.cpp.s
 
 UnitTest++/Posix/TimeHelpers.o: UnitTest++/Posix/TimeHelpers.cpp.o
@@ -417,7 +417,7 @@ UnitTest++/Posix/TimeHelpers.o: UnitTest++/Posix/TimeHelpers.cpp.o
 
 # target to build an object file
 UnitTest++/Posix/TimeHelpers.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/TimeHelpers.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/TimeHelpers.cpp.o
 .PHONY : UnitTest++/Posix/TimeHelpers.cpp.o
 
 UnitTest++/Posix/TimeHelpers.i: UnitTest++/Posix/TimeHelpers.cpp.i
@@ -426,7 +426,7 @@ UnitTest++/Posix/TimeHelpers.i: UnitTest++/Posix/TimeHelpers.cpp.i
 
 # target to preprocess a source file
 UnitTest++/Posix/TimeHelpers.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/TimeHelpers.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/TimeHelpers.cpp.i
 .PHONY : UnitTest++/Posix/TimeHelpers.cpp.i
 
 UnitTest++/Posix/TimeHelpers.s: UnitTest++/Posix/TimeHelpers.cpp.s
@@ -435,7 +435,7 @@ UnitTest++/Posix/TimeHelpers.s: UnitTest++/Posix/TimeHelpers.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/Posix/TimeHelpers.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/TimeHelpers.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Posix/TimeHelpers.cpp.s
 .PHONY : UnitTest++/Posix/TimeHelpers.cpp.s
 
 UnitTest++/ReportAssert.o: UnitTest++/ReportAssert.cpp.o
@@ -444,7 +444,7 @@ UnitTest++/ReportAssert.o: UnitTest++/ReportAssert.cpp.o
 
 # target to build an object file
 UnitTest++/ReportAssert.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/ReportAssert.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/ReportAssert.cpp.o
 .PHONY : UnitTest++/ReportAssert.cpp.o
 
 UnitTest++/ReportAssert.i: UnitTest++/ReportAssert.cpp.i
@@ -453,7 +453,7 @@ UnitTest++/ReportAssert.i: UnitTest++/ReportAssert.cpp.i
 
 # target to preprocess a source file
 UnitTest++/ReportAssert.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/ReportAssert.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/ReportAssert.cpp.i
 .PHONY : UnitTest++/ReportAssert.cpp.i
 
 UnitTest++/ReportAssert.s: UnitTest++/ReportAssert.cpp.s
@@ -462,7 +462,7 @@ UnitTest++/ReportAssert.s: UnitTest++/ReportAssert.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/ReportAssert.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/ReportAssert.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/ReportAssert.cpp.s
 .PHONY : UnitTest++/ReportAssert.cpp.s
 
 UnitTest++/Test.o: UnitTest++/Test.cpp.o
@@ -471,7 +471,7 @@ UnitTest++/Test.o: UnitTest++/Test.cpp.o
 
 # target to build an object file
 UnitTest++/Test.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Test.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Test.cpp.o
 .PHONY : UnitTest++/Test.cpp.o
 
 UnitTest++/Test.i: UnitTest++/Test.cpp.i
@@ -480,7 +480,7 @@ UnitTest++/Test.i: UnitTest++/Test.cpp.i
 
 # target to preprocess a source file
 UnitTest++/Test.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Test.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Test.cpp.i
 .PHONY : UnitTest++/Test.cpp.i
 
 UnitTest++/Test.s: UnitTest++/Test.cpp.s
@@ -489,7 +489,7 @@ UnitTest++/Test.s: UnitTest++/Test.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/Test.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Test.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/Test.cpp.s
 .PHONY : UnitTest++/Test.cpp.s
 
 UnitTest++/TestDetails.o: UnitTest++/TestDetails.cpp.o
@@ -498,7 +498,7 @@ UnitTest++/TestDetails.o: UnitTest++/TestDetails.cpp.o
 
 # target to build an object file
 UnitTest++/TestDetails.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestDetails.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestDetails.cpp.o
 .PHONY : UnitTest++/TestDetails.cpp.o
 
 UnitTest++/TestDetails.i: UnitTest++/TestDetails.cpp.i
@@ -507,7 +507,7 @@ UnitTest++/TestDetails.i: UnitTest++/TestDetails.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TestDetails.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestDetails.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestDetails.cpp.i
 .PHONY : UnitTest++/TestDetails.cpp.i
 
 UnitTest++/TestDetails.s: UnitTest++/TestDetails.cpp.s
@@ -516,7 +516,7 @@ UnitTest++/TestDetails.s: UnitTest++/TestDetails.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TestDetails.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestDetails.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestDetails.cpp.s
 .PHONY : UnitTest++/TestDetails.cpp.s
 
 UnitTest++/TestList.o: UnitTest++/TestList.cpp.o
@@ -525,7 +525,7 @@ UnitTest++/TestList.o: UnitTest++/TestList.cpp.o
 
 # target to build an object file
 UnitTest++/TestList.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestList.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestList.cpp.o
 .PHONY : UnitTest++/TestList.cpp.o
 
 UnitTest++/TestList.i: UnitTest++/TestList.cpp.i
@@ -534,7 +534,7 @@ UnitTest++/TestList.i: UnitTest++/TestList.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TestList.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestList.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestList.cpp.i
 .PHONY : UnitTest++/TestList.cpp.i
 
 UnitTest++/TestList.s: UnitTest++/TestList.cpp.s
@@ -543,7 +543,7 @@ UnitTest++/TestList.s: UnitTest++/TestList.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TestList.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestList.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestList.cpp.s
 .PHONY : UnitTest++/TestList.cpp.s
 
 UnitTest++/TestReporter.o: UnitTest++/TestReporter.cpp.o
@@ -552,7 +552,7 @@ UnitTest++/TestReporter.o: UnitTest++/TestReporter.cpp.o
 
 # target to build an object file
 UnitTest++/TestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporter.cpp.o
 .PHONY : UnitTest++/TestReporter.cpp.o
 
 UnitTest++/TestReporter.i: UnitTest++/TestReporter.cpp.i
@@ -561,7 +561,7 @@ UnitTest++/TestReporter.i: UnitTest++/TestReporter.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporter.cpp.i
 .PHONY : UnitTest++/TestReporter.cpp.i
 
 UnitTest++/TestReporter.s: UnitTest++/TestReporter.cpp.s
@@ -570,7 +570,7 @@ UnitTest++/TestReporter.s: UnitTest++/TestReporter.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporter.cpp.s
 .PHONY : UnitTest++/TestReporter.cpp.s
 
 UnitTest++/TestReporterStdout.o: UnitTest++/TestReporterStdout.cpp.o
@@ -579,7 +579,7 @@ UnitTest++/TestReporterStdout.o: UnitTest++/TestReporterStdout.cpp.o
 
 # target to build an object file
 UnitTest++/TestReporterStdout.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporterStdout.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporterStdout.cpp.o
 .PHONY : UnitTest++/TestReporterStdout.cpp.o
 
 UnitTest++/TestReporterStdout.i: UnitTest++/TestReporterStdout.cpp.i
@@ -588,7 +588,7 @@ UnitTest++/TestReporterStdout.i: UnitTest++/TestReporterStdout.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TestReporterStdout.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporterStdout.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporterStdout.cpp.i
 .PHONY : UnitTest++/TestReporterStdout.cpp.i
 
 UnitTest++/TestReporterStdout.s: UnitTest++/TestReporterStdout.cpp.s
@@ -597,7 +597,7 @@ UnitTest++/TestReporterStdout.s: UnitTest++/TestReporterStdout.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TestReporterStdout.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporterStdout.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestReporterStdout.cpp.s
 .PHONY : UnitTest++/TestReporterStdout.cpp.s
 
 UnitTest++/TestResults.o: UnitTest++/TestResults.cpp.o
@@ -606,7 +606,7 @@ UnitTest++/TestResults.o: UnitTest++/TestResults.cpp.o
 
 # target to build an object file
 UnitTest++/TestResults.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestResults.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestResults.cpp.o
 .PHONY : UnitTest++/TestResults.cpp.o
 
 UnitTest++/TestResults.i: UnitTest++/TestResults.cpp.i
@@ -615,7 +615,7 @@ UnitTest++/TestResults.i: UnitTest++/TestResults.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TestResults.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestResults.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestResults.cpp.i
 .PHONY : UnitTest++/TestResults.cpp.i
 
 UnitTest++/TestResults.s: UnitTest++/TestResults.cpp.s
@@ -624,7 +624,7 @@ UnitTest++/TestResults.s: UnitTest++/TestResults.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TestResults.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestResults.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestResults.cpp.s
 .PHONY : UnitTest++/TestResults.cpp.s
 
 UnitTest++/TestRunner.o: UnitTest++/TestRunner.cpp.o
@@ -633,7 +633,7 @@ UnitTest++/TestRunner.o: UnitTest++/TestRunner.cpp.o
 
 # target to build an object file
 UnitTest++/TestRunner.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestRunner.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestRunner.cpp.o
 .PHONY : UnitTest++/TestRunner.cpp.o
 
 UnitTest++/TestRunner.i: UnitTest++/TestRunner.cpp.i
@@ -642,7 +642,7 @@ UnitTest++/TestRunner.i: UnitTest++/TestRunner.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TestRunner.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestRunner.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestRunner.cpp.i
 .PHONY : UnitTest++/TestRunner.cpp.i
 
 UnitTest++/TestRunner.s: UnitTest++/TestRunner.cpp.s
@@ -651,7 +651,7 @@ UnitTest++/TestRunner.s: UnitTest++/TestRunner.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TestRunner.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestRunner.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TestRunner.cpp.s
 .PHONY : UnitTest++/TestRunner.cpp.s
 
 UnitTest++/TimeConstraint.o: UnitTest++/TimeConstraint.cpp.o
@@ -660,7 +660,7 @@ UnitTest++/TimeConstraint.o: UnitTest++/TimeConstraint.cpp.o
 
 # target to build an object file
 UnitTest++/TimeConstraint.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TimeConstraint.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TimeConstraint.cpp.o
 .PHONY : UnitTest++/TimeConstraint.cpp.o
 
 UnitTest++/TimeConstraint.i: UnitTest++/TimeConstraint.cpp.i
@@ -669,7 +669,7 @@ UnitTest++/TimeConstraint.i: UnitTest++/TimeConstraint.cpp.i
 
 # target to preprocess a source file
 UnitTest++/TimeConstraint.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TimeConstraint.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TimeConstraint.cpp.i
 .PHONY : UnitTest++/TimeConstraint.cpp.i
 
 UnitTest++/TimeConstraint.s: UnitTest++/TimeConstraint.cpp.s
@@ -678,7 +678,7 @@ UnitTest++/TimeConstraint.s: UnitTest++/TimeConstraint.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/TimeConstraint.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TimeConstraint.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/TimeConstraint.cpp.s
 .PHONY : UnitTest++/TimeConstraint.cpp.s
 
 UnitTest++/XmlTestReporter.o: UnitTest++/XmlTestReporter.cpp.o
@@ -687,7 +687,7 @@ UnitTest++/XmlTestReporter.o: UnitTest++/XmlTestReporter.cpp.o
 
 # target to build an object file
 UnitTest++/XmlTestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/XmlTestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/XmlTestReporter.cpp.o
 .PHONY : UnitTest++/XmlTestReporter.cpp.o
 
 UnitTest++/XmlTestReporter.i: UnitTest++/XmlTestReporter.cpp.i
@@ -696,7 +696,7 @@ UnitTest++/XmlTestReporter.i: UnitTest++/XmlTestReporter.cpp.i
 
 # target to preprocess a source file
 UnitTest++/XmlTestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/XmlTestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/XmlTestReporter.cpp.i
 .PHONY : UnitTest++/XmlTestReporter.cpp.i
 
 UnitTest++/XmlTestReporter.s: UnitTest++/XmlTestReporter.cpp.s
@@ -705,7 +705,7 @@ UnitTest++/XmlTestReporter.s: UnitTest++/XmlTestReporter.cpp.s
 
 # target to generate assembly for a file
 UnitTest++/XmlTestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/XmlTestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/UnitTest++.dir/UnitTest++/XmlTestReporter.cpp.s
 .PHONY : UnitTest++/XmlTestReporter.cpp.s
 
 tests/Main.o: tests/Main.cpp.o
@@ -714,7 +714,7 @@ tests/Main.o: tests/Main.cpp.o
 
 # target to build an object file
 tests/Main.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/Main.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/Main.cpp.o
 .PHONY : tests/Main.cpp.o
 
 tests/Main.i: tests/Main.cpp.i
@@ -723,7 +723,7 @@ tests/Main.i: tests/Main.cpp.i
 
 # target to preprocess a source file
 tests/Main.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/Main.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/Main.cpp.i
 .PHONY : tests/Main.cpp.i
 
 tests/Main.s: tests/Main.cpp.s
@@ -732,7 +732,7 @@ tests/Main.s: tests/Main.cpp.s
 
 # target to generate assembly for a file
 tests/Main.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/Main.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/Main.cpp.s
 .PHONY : tests/Main.cpp.s
 
 tests/TestAssertHandler.o: tests/TestAssertHandler.cpp.o
@@ -741,7 +741,7 @@ tests/TestAssertHandler.o: tests/TestAssertHandler.cpp.o
 
 # target to build an object file
 tests/TestAssertHandler.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.o
 .PHONY : tests/TestAssertHandler.cpp.o
 
 tests/TestAssertHandler.i: tests/TestAssertHandler.cpp.i
@@ -750,7 +750,7 @@ tests/TestAssertHandler.i: tests/TestAssertHandler.cpp.i
 
 # target to preprocess a source file
 tests/TestAssertHandler.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.i
 .PHONY : tests/TestAssertHandler.cpp.i
 
 tests/TestAssertHandler.s: tests/TestAssertHandler.cpp.s
@@ -759,7 +759,7 @@ tests/TestAssertHandler.s: tests/TestAssertHandler.cpp.s
 
 # target to generate assembly for a file
 tests/TestAssertHandler.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.s
 .PHONY : tests/TestAssertHandler.cpp.s
 
 tests/TestCheckMacros.o: tests/TestCheckMacros.cpp.o
@@ -768,7 +768,7 @@ tests/TestCheckMacros.o: tests/TestCheckMacros.cpp.o
 
 # target to build an object file
 tests/TestCheckMacros.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.o
 .PHONY : tests/TestCheckMacros.cpp.o
 
 tests/TestCheckMacros.i: tests/TestCheckMacros.cpp.i
@@ -777,7 +777,7 @@ tests/TestCheckMacros.i: tests/TestCheckMacros.cpp.i
 
 # target to preprocess a source file
 tests/TestCheckMacros.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.i
 .PHONY : tests/TestCheckMacros.cpp.i
 
 tests/TestCheckMacros.s: tests/TestCheckMacros.cpp.s
@@ -786,7 +786,7 @@ tests/TestCheckMacros.s: tests/TestCheckMacros.cpp.s
 
 # target to generate assembly for a file
 tests/TestCheckMacros.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.s
 .PHONY : tests/TestCheckMacros.cpp.s
 
 tests/TestChecks.o: tests/TestChecks.cpp.o
@@ -795,7 +795,7 @@ tests/TestChecks.o: tests/TestChecks.cpp.o
 
 # target to build an object file
 tests/TestChecks.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.o
 .PHONY : tests/TestChecks.cpp.o
 
 tests/TestChecks.i: tests/TestChecks.cpp.i
@@ -804,7 +804,7 @@ tests/TestChecks.i: tests/TestChecks.cpp.i
 
 # target to preprocess a source file
 tests/TestChecks.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.i
 .PHONY : tests/TestChecks.cpp.i
 
 tests/TestChecks.s: tests/TestChecks.cpp.s
@@ -813,7 +813,7 @@ tests/TestChecks.s: tests/TestChecks.cpp.s
 
 # target to generate assembly for a file
 tests/TestChecks.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.s
 .PHONY : tests/TestChecks.cpp.s
 
 tests/TestCompositeTestReporter.o: tests/TestCompositeTestReporter.cpp.o
@@ -822,7 +822,7 @@ tests/TestCompositeTestReporter.o: tests/TestCompositeTestReporter.cpp.o
 
 # target to build an object file
 tests/TestCompositeTestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.o
 .PHONY : tests/TestCompositeTestReporter.cpp.o
 
 tests/TestCompositeTestReporter.i: tests/TestCompositeTestReporter.cpp.i
@@ -831,7 +831,7 @@ tests/TestCompositeTestReporter.i: tests/TestCompositeTestReporter.cpp.i
 
 # target to preprocess a source file
 tests/TestCompositeTestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.i
 .PHONY : tests/TestCompositeTestReporter.cpp.i
 
 tests/TestCompositeTestReporter.s: tests/TestCompositeTestReporter.cpp.s
@@ -840,7 +840,7 @@ tests/TestCompositeTestReporter.s: tests/TestCompositeTestReporter.cpp.s
 
 # target to generate assembly for a file
 tests/TestCompositeTestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.s
 .PHONY : tests/TestCompositeTestReporter.cpp.s
 
 tests/TestCurrentTest.o: tests/TestCurrentTest.cpp.o
@@ -849,7 +849,7 @@ tests/TestCurrentTest.o: tests/TestCurrentTest.cpp.o
 
 # target to build an object file
 tests/TestCurrentTest.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.o
 .PHONY : tests/TestCurrentTest.cpp.o
 
 tests/TestCurrentTest.i: tests/TestCurrentTest.cpp.i
@@ -858,7 +858,7 @@ tests/TestCurrentTest.i: tests/TestCurrentTest.cpp.i
 
 # target to preprocess a source file
 tests/TestCurrentTest.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.i
 .PHONY : tests/TestCurrentTest.cpp.i
 
 tests/TestCurrentTest.s: tests/TestCurrentTest.cpp.s
@@ -867,7 +867,7 @@ tests/TestCurrentTest.s: tests/TestCurrentTest.cpp.s
 
 # target to generate assembly for a file
 tests/TestCurrentTest.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.s
 .PHONY : tests/TestCurrentTest.cpp.s
 
 tests/TestDeferredTestReporter.o: tests/TestDeferredTestReporter.cpp.o
@@ -876,7 +876,7 @@ tests/TestDeferredTestReporter.o: tests/TestDeferredTestReporter.cpp.o
 
 # target to build an object file
 tests/TestDeferredTestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.o
 .PHONY : tests/TestDeferredTestReporter.cpp.o
 
 tests/TestDeferredTestReporter.i: tests/TestDeferredTestReporter.cpp.i
@@ -885,7 +885,7 @@ tests/TestDeferredTestReporter.i: tests/TestDeferredTestReporter.cpp.i
 
 # target to preprocess a source file
 tests/TestDeferredTestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.i
 .PHONY : tests/TestDeferredTestReporter.cpp.i
 
 tests/TestDeferredTestReporter.s: tests/TestDeferredTestReporter.cpp.s
@@ -894,7 +894,7 @@ tests/TestDeferredTestReporter.s: tests/TestDeferredTestReporter.cpp.s
 
 # target to generate assembly for a file
 tests/TestDeferredTestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.s
 .PHONY : tests/TestDeferredTestReporter.cpp.s
 
 tests/TestExceptions.o: tests/TestExceptions.cpp.o
@@ -903,7 +903,7 @@ tests/TestExceptions.o: tests/TestExceptions.cpp.o
 
 # target to build an object file
 tests/TestExceptions.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.o
 .PHONY : tests/TestExceptions.cpp.o
 
 tests/TestExceptions.i: tests/TestExceptions.cpp.i
@@ -912,7 +912,7 @@ tests/TestExceptions.i: tests/TestExceptions.cpp.i
 
 # target to preprocess a source file
 tests/TestExceptions.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.i
 .PHONY : tests/TestExceptions.cpp.i
 
 tests/TestExceptions.s: tests/TestExceptions.cpp.s
@@ -921,7 +921,7 @@ tests/TestExceptions.s: tests/TestExceptions.cpp.s
 
 # target to generate assembly for a file
 tests/TestExceptions.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.s
 .PHONY : tests/TestExceptions.cpp.s
 
 tests/TestMemoryOutStream.o: tests/TestMemoryOutStream.cpp.o
@@ -930,7 +930,7 @@ tests/TestMemoryOutStream.o: tests/TestMemoryOutStream.cpp.o
 
 # target to build an object file
 tests/TestMemoryOutStream.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.o
 .PHONY : tests/TestMemoryOutStream.cpp.o
 
 tests/TestMemoryOutStream.i: tests/TestMemoryOutStream.cpp.i
@@ -939,7 +939,7 @@ tests/TestMemoryOutStream.i: tests/TestMemoryOutStream.cpp.i
 
 # target to preprocess a source file
 tests/TestMemoryOutStream.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.i
 .PHONY : tests/TestMemoryOutStream.cpp.i
 
 tests/TestMemoryOutStream.s: tests/TestMemoryOutStream.cpp.s
@@ -948,7 +948,7 @@ tests/TestMemoryOutStream.s: tests/TestMemoryOutStream.cpp.s
 
 # target to generate assembly for a file
 tests/TestMemoryOutStream.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.s
 .PHONY : tests/TestMemoryOutStream.cpp.s
 
 tests/TestTest.o: tests/TestTest.cpp.o
@@ -957,7 +957,7 @@ tests/TestTest.o: tests/TestTest.cpp.o
 
 # target to build an object file
 tests/TestTest.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.o
 .PHONY : tests/TestTest.cpp.o
 
 tests/TestTest.i: tests/TestTest.cpp.i
@@ -966,7 +966,7 @@ tests/TestTest.i: tests/TestTest.cpp.i
 
 # target to preprocess a source file
 tests/TestTest.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.i
 .PHONY : tests/TestTest.cpp.i
 
 tests/TestTest.s: tests/TestTest.cpp.s
@@ -975,7 +975,7 @@ tests/TestTest.s: tests/TestTest.cpp.s
 
 # target to generate assembly for a file
 tests/TestTest.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.s
 .PHONY : tests/TestTest.cpp.s
 
 tests/TestTestList.o: tests/TestTestList.cpp.o
@@ -984,7 +984,7 @@ tests/TestTestList.o: tests/TestTestList.cpp.o
 
 # target to build an object file
 tests/TestTestList.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.o
 .PHONY : tests/TestTestList.cpp.o
 
 tests/TestTestList.i: tests/TestTestList.cpp.i
@@ -993,7 +993,7 @@ tests/TestTestList.i: tests/TestTestList.cpp.i
 
 # target to preprocess a source file
 tests/TestTestList.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.i
 .PHONY : tests/TestTestList.cpp.i
 
 tests/TestTestList.s: tests/TestTestList.cpp.s
@@ -1002,7 +1002,7 @@ tests/TestTestList.s: tests/TestTestList.cpp.s
 
 # target to generate assembly for a file
 tests/TestTestList.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.s
 .PHONY : tests/TestTestList.cpp.s
 
 tests/TestTestMacros.o: tests/TestTestMacros.cpp.o
@@ -1011,7 +1011,7 @@ tests/TestTestMacros.o: tests/TestTestMacros.cpp.o
 
 # target to build an object file
 tests/TestTestMacros.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.o
 .PHONY : tests/TestTestMacros.cpp.o
 
 tests/TestTestMacros.i: tests/TestTestMacros.cpp.i
@@ -1020,7 +1020,7 @@ tests/TestTestMacros.i: tests/TestTestMacros.cpp.i
 
 # target to preprocess a source file
 tests/TestTestMacros.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.i
 .PHONY : tests/TestTestMacros.cpp.i
 
 tests/TestTestMacros.s: tests/TestTestMacros.cpp.s
@@ -1029,7 +1029,7 @@ tests/TestTestMacros.s: tests/TestTestMacros.cpp.s
 
 # target to generate assembly for a file
 tests/TestTestMacros.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.s
 .PHONY : tests/TestTestMacros.cpp.s
 
 tests/TestTestResults.o: tests/TestTestResults.cpp.o
@@ -1038,7 +1038,7 @@ tests/TestTestResults.o: tests/TestTestResults.cpp.o
 
 # target to build an object file
 tests/TestTestResults.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.o
 .PHONY : tests/TestTestResults.cpp.o
 
 tests/TestTestResults.i: tests/TestTestResults.cpp.i
@@ -1047,7 +1047,7 @@ tests/TestTestResults.i: tests/TestTestResults.cpp.i
 
 # target to preprocess a source file
 tests/TestTestResults.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.i
 .PHONY : tests/TestTestResults.cpp.i
 
 tests/TestTestResults.s: tests/TestTestResults.cpp.s
@@ -1056,7 +1056,7 @@ tests/TestTestResults.s: tests/TestTestResults.cpp.s
 
 # target to generate assembly for a file
 tests/TestTestResults.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.s
 .PHONY : tests/TestTestResults.cpp.s
 
 tests/TestTestRunner.o: tests/TestTestRunner.cpp.o
@@ -1065,7 +1065,7 @@ tests/TestTestRunner.o: tests/TestTestRunner.cpp.o
 
 # target to build an object file
 tests/TestTestRunner.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.o
 .PHONY : tests/TestTestRunner.cpp.o
 
 tests/TestTestRunner.i: tests/TestTestRunner.cpp.i
@@ -1074,7 +1074,7 @@ tests/TestTestRunner.i: tests/TestTestRunner.cpp.i
 
 # target to preprocess a source file
 tests/TestTestRunner.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.i
 .PHONY : tests/TestTestRunner.cpp.i
 
 tests/TestTestRunner.s: tests/TestTestRunner.cpp.s
@@ -1083,7 +1083,7 @@ tests/TestTestRunner.s: tests/TestTestRunner.cpp.s
 
 # target to generate assembly for a file
 tests/TestTestRunner.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.s
 .PHONY : tests/TestTestRunner.cpp.s
 
 tests/TestTestSuite.o: tests/TestTestSuite.cpp.o
@@ -1092,7 +1092,7 @@ tests/TestTestSuite.o: tests/TestTestSuite.cpp.o
 
 # target to build an object file
 tests/TestTestSuite.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.o
 .PHONY : tests/TestTestSuite.cpp.o
 
 tests/TestTestSuite.i: tests/TestTestSuite.cpp.i
@@ -1101,7 +1101,7 @@ tests/TestTestSuite.i: tests/TestTestSuite.cpp.i
 
 # target to preprocess a source file
 tests/TestTestSuite.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.i
 .PHONY : tests/TestTestSuite.cpp.i
 
 tests/TestTestSuite.s: tests/TestTestSuite.cpp.s
@@ -1110,7 +1110,7 @@ tests/TestTestSuite.s: tests/TestTestSuite.cpp.s
 
 # target to generate assembly for a file
 tests/TestTestSuite.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.s
 .PHONY : tests/TestTestSuite.cpp.s
 
 tests/TestTimeConstraint.o: tests/TestTimeConstraint.cpp.o
@@ -1119,7 +1119,7 @@ tests/TestTimeConstraint.o: tests/TestTimeConstraint.cpp.o
 
 # target to build an object file
 tests/TestTimeConstraint.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.o
 .PHONY : tests/TestTimeConstraint.cpp.o
 
 tests/TestTimeConstraint.i: tests/TestTimeConstraint.cpp.i
@@ -1128,7 +1128,7 @@ tests/TestTimeConstraint.i: tests/TestTimeConstraint.cpp.i
 
 # target to preprocess a source file
 tests/TestTimeConstraint.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.i
 .PHONY : tests/TestTimeConstraint.cpp.i
 
 tests/TestTimeConstraint.s: tests/TestTimeConstraint.cpp.s
@@ -1137,7 +1137,7 @@ tests/TestTimeConstraint.s: tests/TestTimeConstraint.cpp.s
 
 # target to generate assembly for a file
 tests/TestTimeConstraint.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.s
 .PHONY : tests/TestTimeConstraint.cpp.s
 
 tests/TestTimeConstraintMacro.o: tests/TestTimeConstraintMacro.cpp.o
@@ -1146,7 +1146,7 @@ tests/TestTimeConstraintMacro.o: tests/TestTimeConstraintMacro.cpp.o
 
 # target to build an object file
 tests/TestTimeConstraintMacro.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.o
 .PHONY : tests/TestTimeConstraintMacro.cpp.o
 
 tests/TestTimeConstraintMacro.i: tests/TestTimeConstraintMacro.cpp.i
@@ -1155,7 +1155,7 @@ tests/TestTimeConstraintMacro.i: tests/TestTimeConstraintMacro.cpp.i
 
 # target to preprocess a source file
 tests/TestTimeConstraintMacro.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.i
 .PHONY : tests/TestTimeConstraintMacro.cpp.i
 
 tests/TestTimeConstraintMacro.s: tests/TestTimeConstraintMacro.cpp.s
@@ -1164,7 +1164,7 @@ tests/TestTimeConstraintMacro.s: tests/TestTimeConstraintMacro.cpp.s
 
 # target to generate assembly for a file
 tests/TestTimeConstraintMacro.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.s
 .PHONY : tests/TestTimeConstraintMacro.cpp.s
 
 tests/TestUnitTestPP.o: tests/TestUnitTestPP.cpp.o
@@ -1173,7 +1173,7 @@ tests/TestUnitTestPP.o: tests/TestUnitTestPP.cpp.o
 
 # target to build an object file
 tests/TestUnitTestPP.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.o
 .PHONY : tests/TestUnitTestPP.cpp.o
 
 tests/TestUnitTestPP.i: tests/TestUnitTestPP.cpp.i
@@ -1182,7 +1182,7 @@ tests/TestUnitTestPP.i: tests/TestUnitTestPP.cpp.i
 
 # target to preprocess a source file
 tests/TestUnitTestPP.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.i
 .PHONY : tests/TestUnitTestPP.cpp.i
 
 tests/TestUnitTestPP.s: tests/TestUnitTestPP.cpp.s
@@ -1191,7 +1191,7 @@ tests/TestUnitTestPP.s: tests/TestUnitTestPP.cpp.s
 
 # target to generate assembly for a file
 tests/TestUnitTestPP.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.s
 .PHONY : tests/TestUnitTestPP.cpp.s
 
 tests/TestXmlTestReporter.o: tests/TestXmlTestReporter.cpp.o
@@ -1200,7 +1200,7 @@ tests/TestXmlTestReporter.o: tests/TestXmlTestReporter.cpp.o
 
 # target to build an object file
 tests/TestXmlTestReporter.cpp.o:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.o
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.o
 .PHONY : tests/TestXmlTestReporter.cpp.o
 
 tests/TestXmlTestReporter.i: tests/TestXmlTestReporter.cpp.i
@@ -1209,7 +1209,7 @@ tests/TestXmlTestReporter.i: tests/TestXmlTestReporter.cpp.i
 
 # target to preprocess a source file
 tests/TestXmlTestReporter.cpp.i:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.i
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.i
 .PHONY : tests/TestXmlTestReporter.cpp.i
 
 tests/TestXmlTestReporter.s: tests/TestXmlTestReporter.cpp.s
@@ -1218,7 +1218,7 @@ tests/TestXmlTestReporter.s: tests/TestXmlTestReporter.cpp.s
 
 # target to generate assembly for a file
 tests/TestXmlTestReporter.cpp.s:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.s
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(MAKE) -f 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/build.make 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.s
 .PHONY : tests/TestXmlTestReporter.cpp.s
 
 # Help Target
@@ -1361,6 +1361,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make" && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

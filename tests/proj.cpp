@@ -27,6 +27,21 @@ namespace proj
   	CHECK_EQUAL('l', r2[3]);
   	CHECK_EQUAL('d', r2[4]);
   	CHECK_THROW(r2[5], std::length_error);
+
+    // reference check
+
+    r2[0] = 'x';
+    CHECK_EQUAL('x',r2[0]);
+  }
+
+  TEST(ToString)
+  {
+    rope r1{"hello"};
+    rope r2{"world"};
+    CHECK_EQUAL("hello", r1.toString());
+    CHECK_EQUAL("world", r2.toString());
+    CHECK_EQUAL("helloworld", r1.concat(r2).toString());
+    CHECK_EQUAL("worldhello", r2.concat(r1).toString());
   }
 
   TEST(Length)
@@ -210,15 +225,7 @@ namespace proj
     CHECK_EQUAL(false, r3.equal(r2));
   }
 
-  TEST(ToString)
-  {
-  	rope r1{"hello"};
-  	rope r2{"world"};
-  	CHECK_EQUAL("hello", r1.toString());
-  	CHECK_EQUAL("world", r2.toString());
-  	CHECK_EQUAL("helloworld", r1.concat(r2).toString());
-  	CHECK_EQUAL("worldhello", r2.concat(r1).toString());
-  }
+
 
 
 }  // namespace proj

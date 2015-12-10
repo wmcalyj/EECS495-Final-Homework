@@ -26,7 +26,7 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/Main.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/Main.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestAssertHandler.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -53,8 +53,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestAssertHandler.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestAssertHandler.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCheckMacros.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -81,9 +81,9 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestCheckMacros.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestCheckMacros.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestChecks.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -110,8 +110,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestChecks.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestChecks.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCompositeTestReporter.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -139,7 +139,7 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestCompositeTestReporter.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestCompositeTestReporter.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestCurrentTest.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -165,8 +165,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestCurrentTest.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestCurrentTest.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestDeferredTestReporter.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -195,7 +195,7 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestDeferredTestReporter.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestDeferredTestReporter.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestExceptions.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -222,9 +222,9 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestExceptions.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestExceptions.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestMemoryOutStream.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -250,7 +250,7 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestMemoryOutStream.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestMemoryOutStream.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTest.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -277,8 +277,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTest.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTest.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestList.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -304,7 +304,7 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTestList.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTestList.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestMacros.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -331,9 +331,9 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTestMacros.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTestMacros.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestResults.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -360,8 +360,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTestResults.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTestResults.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestRunner.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -388,8 +388,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTestRunner.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTestRunner.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTestSuite.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -415,7 +415,7 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTestSuite.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTestSuite.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraint.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -442,9 +442,9 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTimeConstraint.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTimeConstraint.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestTimeConstraintMacro.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -471,9 +471,9 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/RecordingReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestTimeConstraintMacro.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/RecordingReporter.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestTimeConstraintMacro.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestUnitTestPP.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -499,8 +499,8 @@
  ../3rdparty/unittest-cpp/UnitTest++/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestUnitTestPP.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/ScopedCurrentTest.h
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestUnitTestPP.cpp
 3rdparty/unittest-cpp/CMakeFiles/TestUnitTest++.dir/tests/TestXmlTestReporter.cpp.o
  ../3rdparty/unittest-cpp/UnitTest++/AssertException.h
  ../3rdparty/unittest-cpp/UnitTest++/CheckMacros.h
@@ -530,4 +530,4 @@
  ../3rdparty/unittest-cpp/UnitTest++/UnitTestPP.h
  ../3rdparty/unittest-cpp/UnitTest++/Win32/TimeHelpers.h
  ../3rdparty/unittest-cpp/UnitTest++/XmlTestReporter.h
- /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/3rdparty/unittest-cpp/tests/TestXmlTestReporter.cpp
+ /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/3rdparty/unittest-cpp/tests/TestXmlTestReporter.cpp

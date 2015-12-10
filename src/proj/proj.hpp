@@ -58,7 +58,6 @@ namespace proj
 		// remove string between indexes
 		rope remove(size_t, size_t);
 		// remove string between indexes
-		// rope remove(size_t);
 	
 		// return the sub string between indexes
 		rope substr(size_t, size_t);
@@ -66,10 +65,6 @@ namespace proj
 		rope replace(size_t, size_t, std::string);
 		// replace rope between indexes with rope
 		rope replace(size_t, size_t, rope&);
-		// ----delete this function before submit, helper
-		void report();
-
-		size_t getWeight();
 
 	private:
 		// length of string in hope_node

@@ -1,20 +1,20 @@
-Start testing: Dec 07 17:21 CST
+Start testing: Dec 09 08:48 CST
 ----------------------------------------------------------
 1/1 Testing: proj_test
 1/1 Test: proj_test
-Command: "/Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/tests/proj_test"
-Directory: /Users/mengchaowang/Library/Mobile Documents/com~apple~CloudDocs/Northwestern University/EECS-495-Intensive Program Design/HW7/hw-project copy/build.make/tests
-"proj_test" start time: Dec 07 17:21 CST
+Command: "/Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/tests/proj_test"
+Directory: /Users/Chen/Documents/Course/Intensive Program Design/hw7-git/EECS495-Final-Homework/build.make/tests
+"proj_test" start time: Dec 09 08:48 CST
 Output:
 ----------------------------------------------------------
 Success: 11 tests passed.
 Test time: 0.00 seconds.
 <end of output>
-Test time =   0.01 sec
+Test time =   0.00 sec
 ----------------------------------------------------------
 Test Passed.
-"proj_test" end time: Dec 07 17:21 CST
+"proj_test" end time: Dec 09 08:48 CST
 "proj_test" time elapsed: 00:00:00
 ----------------------------------------------------------
 
-End testing: Dec 07 17:21 CST
+End testing: Dec 09 08:48 CST
